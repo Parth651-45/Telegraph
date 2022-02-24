@@ -73,7 +73,7 @@ async def home(client, message):
     ],
     [
         InlineKeyboardButton('Our Channel', url='http://telegram.dog/SHAYARI_OF_LOVES'),
-        InlineKeyboardButton('Support', url='https://t.me/ISHQZAADE_0')
+        InlineKeyboardButton('Support', url='https://t.me/The_Xmenteam')
  ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
@@ -97,7 +97,7 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('LEGEND⚡', url='http://telegram.me/LOV3LY_1')
+        InlineKeyboardButton('LEGEND⚡', url='https://t.me/The_Xmenteam')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
