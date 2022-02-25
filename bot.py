@@ -72,7 +72,7 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.dog/SHAYARI_OF_LOVES'),
+        InlineKeyboardButton('Our Channel', url='https://t.me/The_Xmenteam'),
         InlineKeyboardButton('Support', url='https://t.me/The_Xmenteam')
  ]]
   reply_markup = InlineKeyboardMarkup(buttons)
@@ -84,7 +84,7 @@ I'm a telegraph Uploader That Can Upload Photo, Video And Gif
         
 Simply send me photo, video or gif to upload to Telegra.ph
         
-Made With Love By @LOVELYR_OBOT</b>""",
+Made With Love By @telelink429_bot</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
